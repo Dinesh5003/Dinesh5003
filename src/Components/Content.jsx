@@ -1,6 +1,9 @@
 
- import React from 'react';
+import React from 'react';
 import styled from 'styled-components';
+
+import CounterApp from './Counterapp';
+
  
 
 
@@ -42,6 +45,7 @@ const Content = () => {
         <h1 style = {headingstyle}>Main content</h1>
         <Button onClick={printsomething}> Click me! </Button>
         <NewButton onClick={ (e) =>{printsomething1(e)} }>Reject</NewButton>
+        <CounterApp/>
     </main>
   )
 }
